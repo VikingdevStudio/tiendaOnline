@@ -1,0 +1,47 @@
+.navegador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 80px;
+}
+
+.navegador button {
+  background: none;
+  border: none;
+}
+
+.navegador button:hover {
+  background: rgba(131,137,137,0.48);
+  color: #fff;
+  border-radius: 15px;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  margin: 10px;
+}
+
+.principal button {
+  padding: 8px 35px;
+  background: #a1def8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.carritocompras {
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+}
+
+.carritocompras i {
+  font-size: 30px;
+  margin: 30px;
+  color: #000;
+}
+
